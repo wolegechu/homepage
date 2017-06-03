@@ -25,10 +25,11 @@ defaultContentLanguageInSubdir = false
   organization_url = ""
   avatar = "portrait.jpg"
   email = "mail@luoyuchu.com"
-  address = "Building 1 Room 512/514, Hangzhou Dianzi University, Hangzhou, 310018, China"  
+  address = "Building 1 Room 512/514, Hangzhou Dianzi University, Hangzhou, 310018, China"
   phone = ""
   skype = ""
   telegram = "luoyuchu"
+  wechat = "awolegechu"
 
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = ""
@@ -127,20 +128,19 @@ defaultContentLanguageInSubdir = false
     link = "mailto:mail@luoyuchu.com"
 
   [[params.social]]
-    icon = "twitter"
-    icon_pack = "fa"
-    link = "https//twitter.com/luoyuchu"
-
-  [[params.social]]
-    icon = "google-scholar"
-    icon_pack = "ai"
-    link = ""
-
-  [[params.social]]
     icon = "github"
     icon_pack = "fa"
-    link = "//github.com/wolegechu"
+    link = "https://github.com/wolegechu"
 
+  [[params.social]]
+    icon = "weibo"
+    icon_pack = "fa"
+    link = "http://weibo.com/luoyuchu"
+
+  [[params.social]]
+    icon = "twitter"
+    icon_pack = "fa"
+    link = "https://twitter.com/luoyuchu"
 
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
@@ -156,6 +156,11 @@ defaultContentLanguageInSubdir = false
 #  name = "Publications"
 #  url = "#publications_selected"
 #  weight = 2
+
+[[menu.main]]
+  name = "Experiences"
+  url = "#experiences"
+  weight = 2
 
 [[menu.main]]
   name = "Posts"

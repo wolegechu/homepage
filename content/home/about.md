@@ -13,20 +13,20 @@ weight = 1
 [interests]
   interests = [
     "Reinforcement Learning",
-    "Vision and language",
+    "Multimodal Artificial Intelligence",
     "Natural Language Processing"
   ]
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Sophomore in Electronic Information Science and Technology"
+  course = "Bachelor major in Electronic Information Science and Technology"
   institution = "Hangzhou Dianzi University"
-  year = 2015-
- 
+  year = "2015-2019(expected)"
+
 +++
 
-# Biography
+# About Me
 
-Lena Smith is a professor of artificial intelligence at the Stanford AI Lab. Her research interests include distributed robotics, mobile computing and programmable matter. She leads the Robotic Neurobiology group, which develops self-reconfiguring robots, systems of self-organizing robots, and mobile sensor networks.
+I'm a sophomore major in Electronic Information Science and Technology at Hangzhou Dianzi University. I am a member of [Computer Animation and Multimedia Analysis LAB(CAMA-LAB)](camalab.hdu.edu.cn), led by Prof. [Jun Yu](http://camalab.hdu.edu.cn/people/jun_yu/index.html).
 
-Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed neque elit, tristique placerat feugiat ac, facilisis vitae arcu. Proin eget egestas augue. Praesent ut sem nec arcu pellentesque aliquet. Duis dapibus diam vel metus tempus vulputate. 
+I'm interested in multimodal artificial intelligence(vision and language) and the intersection of Computer Vision, Machine Learning and Natural Language Processing. I want to study how to develop multimodal associations in a wider Robotics context. I believe that Reinforcement Learning is a superduper approach to encourage the development in these fields and it can help us to get close to general AI. I have the determination to solve the difficulties encountered and make my own ideas come true, even start from the very beginning.
