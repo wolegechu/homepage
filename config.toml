@@ -9,7 +9,7 @@ footnotereturnlinkcontents = "<sup>^</sup>"
 disqusShortname = ""
 
 # Enable analytics by entering your Google Analytics tracking ID
-googleAnalytics = ""
+googleAnalytics = "UA-72309442-3"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
@@ -142,6 +142,10 @@ defaultContentLanguageInSubdir = false
     icon_pack = "fa"
     link = "https://twitter.com/luoyuchu"
 
+  [[params.social]]
+    icon = "linkedin"
+    icon_pack = "fa"
+    link = "https://www.linkedin.com/in/yuchu-luo-0189a912a/"
 # Navigation Links
 #   To link a homepage widget, specify the URL as a hash `#` followed by the filename of the
 #     desired widget in your `content/home/` folder.
@@ -156,21 +160,30 @@ defaultContentLanguageInSubdir = false
 #  name = "Publications"
 #  url = "#publications_selected"
 #  weight = 2
+[[menu.main]]
+  name = "RL Group"
+  url = "#rl_group"
+  weight = 2
 
 [[menu.main]]
   name = "Experiences"
   url = "#experiences"
-  weight = 2
+  weight = 3
+
+[[menu.main]]
+  name = "Skills"
+  url = "#skills"
+  weight = 4
 
 [[menu.main]]
   name = "Posts"
   url = "#posts"
-  weight = 3
+  weight = 5
 
 [[menu.main]]
   name = "Projects"
   url = "#projects"
-  weight = 4
+  weight = 6
 
 #[[menu.main]]
 #  name = "Teaching"
@@ -180,7 +193,7 @@ defaultContentLanguageInSubdir = false
 [[menu.main]]
   name = "Contact"
   url = "#contact"
-  weight = 6
+  weight = 7
 
 # Taxonomies.
 [taxonomies]

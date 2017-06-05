@@ -10,6 +10,6 @@ subtitle = ""
 widget = "skills"
 
 # Order that this section will appear in.
-weight = 13
+weight = 16
 
 +++

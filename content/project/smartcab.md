@@ -6,7 +6,7 @@ date = "2017-03-14"
 title = "Train a Smartcab How to Drive"
 
 # Project summary to display on homepage.
-summary = "Use unsupervised learning techniques to see if any similarities exist between customers, and how to best segment customers into distinct categories."
+summary = "Use reinforcement learning to aid a self-driving agent effectively reaching its destinations in the allotted time."
 
 # Optional image to display on homepage (relative to `static/img/` folder).
 image_preview = ""
