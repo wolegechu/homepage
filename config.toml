@@ -1,5 +1,5 @@
 baseurl = "http://www.luoyuchu.com/"  # End your URL with a `/` trailing slash.
-title = "Yuchu Luo's Homepage"
+title = "Yuchu Luo - 罗宇矗"
 copyright = "&copy; 2016 Yuchu Luo"
 theme = "academic"
 enableEmoji = true
@@ -21,8 +21,8 @@ defaultContentLanguageInSubdir = false
 [params]
   name = "Yuchu Luo"
   role = "Sophomore"
-  organization = "Hangzhou Dianzi University"
-  organization_url = ""
+  organization = "CAMA-LAB in HDU"
+  organization_url = "http://camalab.hdu.edu.cn/"
   avatar = "portrait.jpg"
   email = "mail@luoyuchu.com"
   address = "Building 1 Room 512/514, Hangzhou Dianzi University, Hangzhou, 310018, China"
