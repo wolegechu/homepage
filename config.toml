@@ -171,14 +171,16 @@ defaultContentLanguageInSubdir = false
   weight = 2
 
 [[menu.main]]
-  name = "Experiences"
-  url = "#experiences"
-  weight = 3
+      name = "Talks"
+      url = "#talks"
+      weight = 3
 
 [[menu.main]]
-    name = "Talks"
-    url = "#talks"
-    weight = 5
+  name = "Experiences"
+  url = "#experiences"
+  weight = 4
+
+
 
 [[menu.main]]
   name = "Posts"
