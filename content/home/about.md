@@ -19,7 +19,7 @@ weight = 1
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Bachelor major in Electronic Information Science and Technology"
+  course = "Bachelor major in Computer Science and Technology"
   institution = "Hangzhou Dianzi University"
   year = "2015-2019(expected)"
 
@@ -32,6 +32,6 @@ weight = 1
 
 # About Me
 
-I'm a sophomore major in Electronic Information Science and Technology at Hangzhou Dianzi University. And now conduct research on cross-media with Dr. [Zhou Yu](http://camalab.hdu.edu.cn/people/zhou_yu/index.html) supervised by Prof. [Jun Yu](http://camalab.hdu.edu.cn/people/jun_yu/index.html) in the [Computer Animation and Multimedia Analysis LAB](http://camalab.hdu.edu.cn/).
+I'm a junior student major in Computer Science and Technology at Hangzhou Dianzi University. And now conduct research on cross-media with Dr. [Zhou Yu](http://camalab.hdu.edu.cn/people/zhou_yu/index.html) supervised by Prof. [Jun Yu](http://camalab.hdu.edu.cn/people/jun_yu/index.html) in the [Computer Animation and Multimedia Analysis LAB](http://camalab.hdu.edu.cn/).
 
-I’m interested in multimodal artificial intelligence (vision and language) and the intersection of Computer Vision, Machine Learning, and Natural Language Processing. I am studying how to develop multimodal associations in a wider Robotics context. I believe that Reinforcement Learning is an excellent approach to encourage the development of these fields, and it can help us to get close to general AI. I have the determination to solve the difficulties encountered and make my own ideas come true, even starting from the very beginning.
+I’m interested in multimodal artificial intelligence and the intersection of Computer Vision, Machine Learning, and Natural Language Processing. Currently, I am studying how to develop multimodal associations in a wider Robotics context, especially modeling vision and language. I believe that Reinforcement Learning is an excellent approach to encourage the development of these fields, and it can help us to get close to general AI. I have the determination to solve the difficulties encountered and make my own ideas come true, even starting from the very beginning.

@@ -30,7 +30,8 @@ defaultContentLanguageInSubdir = false
   skype = ""
   telegram = "luoyuchu"
   wechat = "awolegechu"
-
+  resume = "Yuchu_Luo_resume.pdf"
+  zhihu = "https://www.zhihu.com/people/luoyuchu/activities"
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = ""
 
@@ -122,10 +123,6 @@ defaultContentLanguageInSubdir = false
   #
   #   Full list: https://jpswalsh.github.io/academicons/
 
-  [[params.social]]
-    icon = "envelope"
-    icon_pack = "fa"
-    link = "mailto:mail@luoyuchu.com"
 
   [[params.social]]
     icon = "github"

@@ -3,9 +3,9 @@ date = "2017-08-23T00:00:00"
 title = "Intro to Reinforcement Learning"
 abstract = ""
 abstract_short = ""
-event = "CAMA-LAB Machine Learning Summer Class"
+event = "CAMA-LAB Machine Learning Summer School"
 event_url = "https://github.com/wolegechu/cama_summer_class_2017"
-location = "Hangzhou, China"
+location = "CAMALAB Conference Room, East Campus Hangzhou Dianzi University"
 
 selected = false
 math = true
