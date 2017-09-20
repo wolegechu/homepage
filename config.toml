@@ -24,14 +24,14 @@ defaultContentLanguageInSubdir = false
   organization = "CAMA-LAB in HDU"
   organization_url = "http://camalab.hdu.edu.cn/"
   avatar = "portrait.jpg"
-  email = "mail@luoyuchu.com"
+  email = "mail[at]luoyuchu[dot]com"
   address = "Building 1 Room 512/514, Hangzhou Dianzi University, Hangzhou, 310018, China"
   phone = ""
   skype = ""
   telegram = "luoyuchu"
   wechat = "awolegechu"
   resume = "Yuchu_Luo_resume.pdf"
-  zhihu = "https://www.zhihu.com/people/luoyuchu/activities"
+  zhihu = "https://www.zhihu.com/people/luoyuchu"
   # Enable Keybase in Contact section by entering your keybase.io username.
   keybase = ""
 

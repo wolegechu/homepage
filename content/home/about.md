@@ -21,7 +21,7 @@ weight = 1
 [[education.courses]]
   course = "Bachelor major in Computer Science and Technology"
   institution = "Hangzhou Dianzi University"
-  year = "2015-2019(expected)"
+  year = "2015-2019 (expected)"
 
 [[education.courses]]
   course = "High School"
