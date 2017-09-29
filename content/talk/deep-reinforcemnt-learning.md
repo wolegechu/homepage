@@ -12,7 +12,7 @@ math = false
 
 url_pdf = "https://github.com/wolegechu/cama_summer_class_2017/raw/master/Week_6/Reinforcement%20Learning/Deep%20Reinforcement%20Learning.pdf"
 url_slides = "https://speakerdeck.com/wolegechu/deep-reinforcement-learning"
-url_video = "#"
+url_video = ""
 
 # Optional featured image (relative to `static/img/` folder).
 [header]

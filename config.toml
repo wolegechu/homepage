@@ -20,7 +20,7 @@ defaultContentLanguageInSubdir = false
 
 [params]
   name = "Yuchu Luo"
-  role = "Junior"
+  role = "Junior Student"
   organization = "CAMA-LAB in HDU"
   organization_url = "http://camalab.hdu.edu.cn/"
   avatar = "portrait.jpg"
@@ -33,7 +33,7 @@ defaultContentLanguageInSubdir = false
   resume = "Yuchu_Luo_resume.pdf"
   zhihu = "https://www.zhihu.com/people/luoyuchu"
   # Enable Keybase in Contact section by entering your keybase.io username.
-  keybase = ""
+  keybase = "yuchu"
 
   # Date format (refer to Go's date format: http://flippinggodateformat.com )
   #   Examples: "Mon, Jan 2, 2006" or "2006-01-02"
@@ -162,22 +162,21 @@ defaultContentLanguageInSubdir = false
 #  name = "Publications"
 #  url = "#publications_selected"
 #  weight = 2
+
 [[menu.main]]
-  name = "RL Group"
-  url = "#rl_group"
+  name = "News"
+  url = "#news"
   weight = 2
 
 [[menu.main]]
-      name = "Talks"
-      url = "#talks"
-      weight = 3
+  name = "RL Group"
+  url = "#rl_group"
+  weight = 3
 
 [[menu.main]]
-  name = "Experiences"
-  url = "#experiences"
+  name = "Talks"
+  url = "#talks"
   weight = 4
-
-
 
 [[menu.main]]
   name = "Posts"
