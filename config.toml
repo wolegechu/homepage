@@ -21,7 +21,7 @@ defaultContentLanguageInSubdir = false
 [params]
   name = "Yuchu Luo"
   role = "Junior Student"
-  organization = "CAMA-LAB in HDU"
+  organization = "MIL @ HDU"
   organization_url = "http://camalab.hdu.edu.cn/"
   avatar = "portrait.jpg"
   email = "mail[at]luoyuchu[dot]com"
@@ -168,10 +168,10 @@ defaultContentLanguageInSubdir = false
   url = "#news"
   weight = 2
 
-[[menu.main]]
-  name = "RL Group"
-  url = "#rl_group"
-  weight = 3
+# [[menu.main]]
+#   name = "RL Group"
+#   url = "#rl_group"
+#   weight = 3
 
 [[menu.main]]
   name = "Talks"

@@ -3,7 +3,7 @@
 # To create more sections, duplicate this file and edit the values below as desired.
 
 date = "2017-04-20T00:00:00"
-draft = false
+draft = true
 
 title = "A RL Group"
 subtitle = "Academic and Technical Exchange"
