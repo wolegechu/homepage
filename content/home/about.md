@@ -14,7 +14,7 @@ weight = 1
   interests = [
     "Reinforcement Learning",
     "Multimodal Artificial Intelligence",
-    "Natural Language Processing"
+    "Computer Vision"
   ]
 
 # List your qualifications (such as academic degrees).
@@ -32,6 +32,6 @@ weight = 1
 
 # About Me
 
-I'm a junior student major in Computer Science and Technology at Hangzhou Dianzi University. And now conduct research on cross-media with Dr. [Zhou Yu](http://camalab.hdu.edu.cn/people/zhou_yu/index.html), and also working closely with Dr. Fei Gao, supervised by Prof. [Jun Yu](http://camalab.hdu.edu.cn/people/jun_yu/index.html) in the [Media Intelligence Laboratory](http://camalab.hdu.edu.cn/) (former name CAMALAB).
+I'm a junior student major in Computer Science and Technology at Hangzhou Dianzi University. And now conduct research on cross-media with Dr. [Zhou Yu](http://camalab.hdu.edu.cn/people/zhou_yu/index.html), and also working closely with Dr. [Fei Gao](http://camalab.hdu.edu.cn/people/fei_gao/index.html) , supervised by Prof. [Jun Yu](http://camalab.hdu.edu.cn/people/jun_yu/index.html) in the [Media Intelligence Laboratory](http://camalab.hdu.edu.cn/) (former name CAMALAB).
 
 I’m interested in multimodal artificial intelligence and the intersection of Computer Vision, Machine Learning, and Natural Language Processing. Currently, I am studying how to develop multimodal associations in a wider Robotics context, especially modeling vision and language. I believe that Reinforcement Learning is an excellent approach to encourage the development of these fields, and it can help us to get close to general AI. I have the determination to solve the difficulties encountered and make my own ideas come true, even starting from the very beginning.

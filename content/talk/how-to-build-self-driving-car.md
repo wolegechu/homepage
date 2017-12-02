@@ -1,6 +1,6 @@
 +++
 date = "2017-10-20T19:00:00"
-title = "如何实现无人驾驶？ (available soon)"
+title = "如何实现无人驾驶"
 abstract = ""
 abstract_short = ""
 event = "Intelligent Agent Group Seminar"
@@ -10,7 +10,7 @@ location = "Room 118, Building 7, Hangzhou Dianzi University"
 selected = false
 math = false
 
-url_pdf = ""
+url_pdf = "files/talk_pdf/10.20-self-driving-car.pdf"
 url_slides = ""
 url_video = ""
 

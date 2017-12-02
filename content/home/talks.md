@@ -15,6 +15,5 @@ weight = 13
 count = 10
 
 # Show talk details (such as abstract)? (true/false)
-detailed_list = false
-
+list_format = 0
 +++
