@@ -9,7 +9,7 @@ preserveTaxonomyNames = true
 paginate = 10
 
 # Enable comments by entering your Disqus shortname
-disqusShortname = ""
+disqusShortname = "yuchuluo"
 
 # Enable analytics by entering your Google Analytics tracking ID
 googleAnalytics = "UA-72309442-3"
@@ -44,7 +44,7 @@ defaultContentLanguageInSubdir = false
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "MIL @ HDU", url = "http://camalab.hdu.edu.cn/" } ]
+  organizations = [ { name = "MIL @ HDU", url = "http://mil.hdu.edu.cn/" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
@@ -100,10 +100,10 @@ defaultContentLanguageInSubdir = false
   reading_time = true
 
   # Display comment count? Requires commenting to be enabled.
-  comment_count = true
+  comment_count = false
 
   # Display section pager for posts?
-  section_pager = false
+  section_pager = true
 
   # Enable global LaTeX math rendering?
   #   If false, you can enable it locally on a per page basis.
@@ -273,6 +273,11 @@ defaultContentLanguageInSubdir = false
   name = "Contact"
   url = "#contact"
   weight = 6
+
+[[menu.main]]
+  name = "Today I Learned"
+  url = "tags/today-i-learned/"
+  weight = 7
 
 # Taxonomies.
 [taxonomies]
