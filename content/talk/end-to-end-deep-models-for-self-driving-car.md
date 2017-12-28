@@ -1,6 +1,6 @@
 +++
 date = "2017-11-26T19:00:00"
-title = "End-to-end Deep Models For Self-driving Car (Avaliable soon)"
+title = "End-to-end Deep Models for Self-driving Car (Avaliable soon)"
 abstract = ""
 abstract_short = ""
 event = "Intelligent Agent Group Seminar"

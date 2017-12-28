@@ -1,7 +1,7 @@
 +++
 date = "2017-12-26T00:38:00"
 draft = false
-tags = ["Today I Learned", "Computer Network"]
+tags = ["Today I Learned", "Operating System"]
 title = "Virtual Memory Hardware"
 math = true
 outurl = ""
@@ -14,9 +14,10 @@ image = ""
 caption = ""
 
 +++
-
-### Issues in sharing physical memory
+{{% toc %}}
+## Issues in sharing physical memory
 ![](/img/post/WX20171226-152306.png)
+
 - Protection
     - A bug in one process can corrupt in another
     - Must somehow prevent process A from trashing B's memory
@@ -51,6 +52,7 @@ caption = ""
 ## Ideas
 ### Ideal 1: load-time linking
 ![](/img/post/WX20171226-154928.png)
+
 - *Linker* patches addresses of symbols like printf
 - Idea: link when process executed, not at compile time
     - Determine where process will reside in memory
@@ -62,6 +64,7 @@ caption = ""
 
 ### Ideal 2: base + bound register
 ![](/img/post/WX20171226-163437.png)
+
 - Two special privileged registers: **base** snf **bound**
 - On each load/store/jump:
     - Physical address = virtual address + base
@@ -95,6 +98,7 @@ caption = ""
 
 ## Segmentation
 ![](/img/post/WX20171226-164915.png)
+
 - Let processes have many base/bound regs
     - Address space built from many segments
     - Can share/protect memory at segment granularity
@@ -102,6 +106,7 @@ caption = ""
 
 ### Segmentation mechanics
 ![](/img/post/WX20171226-191449.png)
+
 - Each process has a segment table
 - Each VA (Virtual Address) indicates a segment and offset:
     - Top bits of addr select segment, low bits select offset (PDP-10)
@@ -109,6 +114,7 @@ caption = ""
 
 ### Segmentation example
 ![](/img/post/WX20171226-192145.png)
+
 - 2-bit segment number (1st digit), 12 bit offset (last 3)
     - Where is 0x0
 
@@ -172,7 +178,7 @@ caption = ""
 - On memory access: Translate VPN to PPN, then add offset
 ![](/img/post/WX20171227-094654.png)
 
-###Example: Paging on PDP-11
+### Example: Paging on PDP-11
 - 64K virtual memory, 8K pages
     - Separate address space for instructions & data
     - I.e., can't read your own instructions with a load
