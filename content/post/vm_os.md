@@ -2,7 +2,7 @@
 date = "2017-12-27T00:38:00"
 draft = false
 tags = ["Today I Learned", "Operating System"]
-title = "Virtual Memory OS"
+title = "[OS Notes] Virtual Memory OS"
 math = true
 outurl = ""
 summary = """
@@ -51,9 +51,49 @@ caption = ""
     - E.g., x86 move string instructions
     - Specify src, dst, count in `%esi, %edi, %ecx` registers
     - On fault, registers adjusted to resume where move left off
-        
+
+### What to fetch
+- Bring in page that caused page fault
+- Pre-fetch surrounding pages?
+    - Reading two disk blocks approximately as fast as reading one
+    - As long as no track/head switch, seek time dominates
+    - If application exhibits spacial locality, then big win to store and read multiple contiguous pages
+- Also pre-zero unused pages in idle loop
+    - Need 0-filled pages for stack, heap, anonymously mmapped memory
+    - Zeroing them only on demand is slower
+    - Hence, many OSes zero freed pages while CPU is idle
+
+### Selecting physical pages
+- May need to eject some pages
+    - More on eviction policy in two slides
+- May also have a choice of physical pages
+- Direct-mapped physical caches
+    - Virtual -> Physical mapping can affect performance
+    - In old days: Physical adddredd A conflicts with $kC+A$ (where k is any integer, C is cache size)
+    - Applications can conflict with each other or themselves
+    - Scientific application benefit if consecutive virtual pages do not confilict in the cache
+    - Many other applications do better with random mapping
+    - There days: CPUs more sophisticated than kC + A
+
+### Superpages
+- How should OS make use of "large" mappings
+    - x86 has 2/4 MB pages that might be useful
+    - Alpha has even more choices: 8KB, 64KB, 512KB, 4MB
+- Sometimes more pages in L2 cache than TLB entries
+    - Don't want costly TLB misses going to main memory
+- Or have two-level TLBs
+    - Want to maximize hit rate in faster L1 TLB
+- OS can transparently support superpages
+    - "reserve" appropriate physical pages if possible
+    - Promote contiguous pages to superpages
+    - Does complicate evicting (esp. dirty pages) - demote
 
 ## Eviction policies
+### Starw man: FIFO eviction
+- Evict oldest fetched page in system
+- Example-reference string 1,2,3,4,1,2,5,1,2,3,4,5
+- 3 physical pages: 9 page faults
+
 
 ## Thrashing
 

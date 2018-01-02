@@ -2,7 +2,7 @@
 date = "2017-12-26T00:38:00"
 draft = false
 tags = ["Today I Learned", "Operating System"]
-title = "Virtual Memory Hardware"
+title = "[OS Notes] Virtual Memory Hardware"
 math = true
 outurl = ""
 summary = """

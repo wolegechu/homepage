@@ -14,7 +14,7 @@ weight = 40
 
 # Show posts that contain the following tags. Default to any tags.
 tags = []
-tags_include = []
+tags_include = ["star"]
 tags_exclude = ["Today I Learned"]
 
 # Number of posts to list.

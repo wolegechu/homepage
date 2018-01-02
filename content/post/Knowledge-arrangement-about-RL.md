@@ -1,7 +1,7 @@
 +++
 date = "2016-04-20T11:00:00"
 draft = false
-tags = ["Reinforcement Learning", "Knowledge arrangement"]
+tags = ["Reinforcement Learning", "Knowledge arrangement", "star"]
 title = "Knowledge arrangement about Reinforcement Learning"
 math = false
 outURL = "https://zhuanlan.zhihu.com/p/25319023"

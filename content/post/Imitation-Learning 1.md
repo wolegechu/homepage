@@ -1,7 +1,7 @@
 +++
 date = "2017-03-12T22:38:00"
 draft = false
-tags = ["Reinforcement Learning"]
+tags = ["Reinforcement Learning", "star"]
 title = "An introduction to Imitation Learning (Part 1)"
 math = true
 outurl = "https://zhuanlan.zhihu.com/p/25688750"
