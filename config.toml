@@ -16,7 +16,7 @@ googleAnalytics = "UA-72309442-3"
 
 # Default language to use (if you setup multilingual support)
 defaultContentLanguage = "en"
-defaultContentLanguageInSubdir = false
+defaultContentLanguageInSubdir = true
 
 [outputs]
   home = [ "HTML", "CSS", "RSS" ]
@@ -36,7 +36,7 @@ defaultContentLanguageInSubdir = false
 
   # Font style.
   #   Choose from `default`, `classic`, or `playfair`.
-  font = "classic"
+  font = "default"
 
   # Your details.
   name = "Yuchu Luo"

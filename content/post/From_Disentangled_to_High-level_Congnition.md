@@ -1,7 +1,7 @@
 +++
 date = "2018-02-21T00:38:00"
 draft = false
-tags = ["Today I Learned", "Deep Learning", "star"]
+tags = ["Deep Learning", "star"]
 title = "From Deep Learning of Disentangled Representations to High-level Cognition"
 math = true
 outurl = ""
@@ -29,11 +29,9 @@ caption = ""
     - A generalization gap: max difference in test accuracies
     - Large generalization gap: CNN exploits too much of low level regularities, as opposed to learning the abstract high level concepts.
 
-'''
-Intuition: we have a mental model that captures the explanatory factors of our world to some extent. It's not perfect. And we can generalize to new configurations of the existing factor. When in new situation, involve concepts that we already know, thaen just combine  in very new ways.
-'''
+> Intuition: we have a mental model that captures the explanatory factors of our world to some extent. It's not perfect. And we can generalize to new configurations of the existing factor. When in new situation, involve concepts that we already know, thaen just combine  in very new ways.
 
-## Learning  <<How the world ticks>>
+## Learning "How the world ticks"
 - So long as our machine learning models << cheat >> by relying only on superficial statistical regularities, they remain vulnerable to out-of-distribution examples
 - Humans generalize better than other animals thanks to a more accurate internal model of the **underlying causal relationships**
 - To predict future situations (e.g., the effect of planned actions) far from anything seen before while involving known concepts, an essential component of reasoning, intelligence and science
@@ -96,10 +94,12 @@ The notion of disentangling is related but different from the notion of invarian
     - A policy $\pi_k$ (which tries to selectively change just that factor)
         - Kth policy is going to control the Kth factor
     - A representation (which maps state to value of factor) $f_k$
-    - Discrete case, $\phi \in {1,..,N}$, define *selectivity$:
-        - $$\sum_{k=1}^N{\mathbb{E}_{(s_t, a_t, s_{t+1})} [\pi_k{a_t|s_t} \cfrac{f_k(s_{t+1}) - f_k(s_t)}{\sum_{k'}{|f_{k'}(s_{t+1})f_{k'}(s_t)|}}]}$$
+    - Discrete case, $\phi \in {1,..,N}$, define *selectivity*:
+    
+$$ \sum\_{k=1}^N{\mathbb{E}\_{(s\_t, a\_t, s\_{t+1})} [\pi\_k{a\_t|s\_t} \cfrac{f\_k(s\_{t+1}) - f\_k(s\_t)}{\sum\_{k'}{|f\_{k'}(s\_{t+1})f\_{k'}(s\_t)|}}]} $$
+
 - Optimize both policy $\pi_k$ and representation $f_k$ to minimize
-    - $$\mathbb{E}_s[\frac{1}{2} \lVert s - g(f(s)) \rVert^2_2] - \lambda \sum_k{\mathbb{E}_s[ \sum_a{\pi_k(a|s)\log{sel(s,a,k)}}]}$$
+    - $$\mathbb{E}\_s[\frac{1}{2} \lVert s - g(f(s)) \rVert^2\_2] - \lambda \sum\_k{\mathbb{E}\_s[ \sum\_a{\pi\_k(a|s)\log{sel(s,a,k)}}]}$$
     - Namely, (reconstruction error) - $\lambda$ (disentanglement objective)
 - Example 1.Predict the effect of actions in attribute space
 - Example 2.Given two states, recover the casual actions leading from one to the other
@@ -119,7 +119,7 @@ Given initial state and set of actions, predict new attribute values and the cor
 - Conscious thoughts are very low-dimensional objects compared to the full state of the (unconscious) brain
 - Yet they have unexpected predictive value of usefulness -> strong constraint or prior on the underlying representation
 - Other
-    - **Thought*: composition of few selected factors / concepts (key/value) at the highest level of abstraction of our brain
+    - **Thought**: composition of few selected factors / concepts (key/value) at the highest level of abstraction of our brain
     - Richer than but closely associated with short verbal expression such as a **sentence** or phrase, a **rule** or **fact** (link to classical symbolic AI & knowledge representation)
 - **How to select a few relevant abstract concepts making a thought?**
     - Content-based  Attention
@@ -136,7 +136,7 @@ Given initial state and set of actions, predict new attribute values and the cor
         - ![](/img/post/QQ20180221-045704.png)
     - *c* includes names (keys) and values of factors
 - Conscious prediction over attended variables A (soft-attention)
-    - $$V = - \sum_A{w_a \log{P(h_{t,A} = a | c_{t-1})}}$$
+    - $$V = - \sum\_A{w\_a \log{P(h\_{t,A} = a | c\_{t-1})}}$$
         - $w_A$: Attention weights
         - $h_{t,A}$: Factor **name**
         - $a$: Predicted **value**

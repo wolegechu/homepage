@@ -30,7 +30,6 @@ caption = ""
 Advances in neural information processing systems. 1989.
 - Muller, Urs, et al. "Off-road obstacle avoidance through end-to-end learning.“ Advances in neural information processing systems. 2006.APA	
 - Chen, Chenyi, et al. "Deepdriving: Learning affordance for direct perception in autonomous driving." Proceedings of the IEEE International Conference on Computer Vision. 2015.
-- Chen, Chenyi, et al. "Deepdriving: Learning affordance for direct perception in autonomous driving." Proceedings of the IEEE International Conference on Computer Vision. 2015.
 - Bojarski, Mariusz, et al. "End to end learning for self-driving cars." arXiv preprint arXiv:1604.07316 (2016).
 - Codevilla, Felipe, et al. "End-to-end driving via conditional imitation learning." arXiv preprint arXiv:1710.02410 (2017).
 - Xu, Huazhe, et al. "End-to-end learning of driving models from large-scale video datasets." arXiv preprint arXiv:1612.01079(2016).
