@@ -2,11 +2,11 @@
 date = "2018-09-14T23:00:00"
 draft = false
 tags = ["Self-driving", "star"]
-title = "Apollo Planning 规划模块简析（附大致流程）"
+title = "Apollo Planning 模块和其路径规划方法简析"
 math = true
 outurl = ""
 summary = """
-Apollo 的 Planning 模块以 Routing 模块产生一条当前位置到终点的理想路径作为输入，结合当前场景下的路况信息（信号灯、短期内障碍物的运动轨迹等），生成短期内的一条驾驶路径。
+Apollo 的 `Planning` 模块以 `Routing` 模块产生一条当前位置到终点的理想路径作为输入，结合当前场景下的路况信息（信号灯、短期内障碍物的运动轨迹等），生成短期内的一条驾驶路径。
 """
 
 [header]
