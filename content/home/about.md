@@ -20,9 +20,9 @@ weight = 5
 
 # List your qualifications (such as academic degrees).
 [[education.courses]]
-  course = "Bachelor major in Computer Science and Technology"
+  course = "Major in Computer Science and Technology"
   institution = "Hangzhou Dianzi University"
-  year = "2015-2019 (expected)"
+  year = "2015-"
 
 [[education.courses]]
   course = "High School"
@@ -33,6 +33,8 @@ weight = 5
 
 # About Me
 
-I'm a junior student major in Computer Science and Technology at Hangzhou Dianzi University. Now conduct research on cross-media with Dr. [Zhou Yu](http://mil.hdu.edu.cn/people/zhou_yu/index.html), and also working closely with Dr. [Fei Gao](http://mil.hdu.edu.cn/people/fei_gao/index.html) , supervised by Prof. [Jun Yu](http://mil.hdu.edu.cn/people/jun_yu/index.html) in the [Media Intelligence Lab](http://mil.hdu.edu.cn/) (former name CAMALAB).
+<!-- I'm a junior student major in Computer Science and Technology at Hangzhou Dianzi University. Now conduct research on cross-media with Dr. [Zhou Yu](http://mil.hdu.edu.cn/people/zhou_yu/index.html), and also working closely with Dr. [Fei Gao](http://mil.hdu.edu.cn/people/fei_gao/index.html) , supervised by Prof. [Jun Yu](http://mil.hdu.edu.cn/people/jun_yu/index.html) in the [Media Intelligence Lab](http://mil.hdu.edu.cn/) (former name CAMALAB). -->
 
-I’m interested in multimodal artificial intelligence and the intersection of Computer Vision, Machine Learning, and Natural Language Processing. Currently, I am studying how to develop multimodal associations in a wider Robotics context, especially modeling vision and language. I believe that Reinforcement Learning is an excellent approach to encourage the development of these fields, and it can help us to get close to general AI. I have the determination to solve the difficulties encountered and make my own ideas come true, even starting from the very beginning.
+I started a AI startup `fss.ai` in November 2018. Currently our team is building the future of home decoration based on intelligent interior design and autonomous quality supervision solution.
+
+At college, I have conducted research on cross-media understanding with Dr. [Zhou Yu](http://mil.hdu.edu.cn/people/zhou_yu/index.html) in [Media Intelligence Lab](http://mil.hdu.edu.cn/), and have worked on self-driving planning and sensor fusion at [Momenta](www.momenta.ai) as an engineering intern.
