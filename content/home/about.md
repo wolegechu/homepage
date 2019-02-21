@@ -35,6 +35,6 @@ weight = 5
 
 <!-- I'm a junior student major in Computer Science and Technology at Hangzhou Dianzi University. Now conduct research on cross-media with Dr. [Zhou Yu](http://mil.hdu.edu.cn/people/zhou_yu/index.html), and also working closely with Dr. [Fei Gao](http://mil.hdu.edu.cn/people/fei_gao/index.html) , supervised by Prof. [Jun Yu](http://mil.hdu.edu.cn/people/jun_yu/index.html) in the [Media Intelligence Lab](http://mil.hdu.edu.cn/) (former name CAMALAB). -->
 
-I started a AI startup `fss.ai` in November 2018. Currently our team is building the future of home decoration based on intelligent interior design and autonomous quality supervision solution.
+I started an AI startup `fss.ai` in November 2018. Currently, we are building the future of home decoration based on our intelligent interior design solution and autonomous quality supervision system.
 
-At college, I have conducted research on cross-media understanding with Dr. [Zhou Yu](http://mil.hdu.edu.cn/people/zhou_yu/index.html) in [Media Intelligence Lab](http://mil.hdu.edu.cn/), and have worked on self-driving planning and sensor fusion at [Momenta](www.momenta.ai) as an engineering intern.
+I have conducted research on cross-media understanding with Dr. [Zhou Yu](http://mil.hdu.edu.cn/people/zhou_yu/index.html) in [Media Intelligence Lab (MIL)](http://mil.hdu.edu.cn/) at college, and have worked on self-driving planning and sensor fusing at [Momenta](www.momenta.ai) as an engineering intern.

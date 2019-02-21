@@ -40,22 +40,22 @@ defaultContentLanguageInSubdir = true
 
   # Your details.
   name = "Yuchu Luo"
-  role = "Junior Student"
+  role = "Co-founder"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "MIL @ HDU", url = "http://mil.hdu.edu.cn/" } ]
+  organizations = [ { name = "fss.ai", url = "http://fss.ai" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
-  email = "mail[at]luoyuchu[dot]com"
-  address = "Building 1 Room 512/514, Hangzhou Dianzi University, Hangzhou, 310018, China"
+  email = "ychu.luo[at]gmail[dot]com"
+  address = ""
   # office_hours = "Monday 10:00 to 13:00 or email for appointment"
   phone = ""
   skype = ""
   telegram = "luoyuchu"
   wechat = "awolegechu"
-  resume = "Yuchu_Luo_resume.pdf"
+  resume = ""
   zhihu = "https://www.zhihu.com/people/luoyuchu"
 
   # Enable Keybase in Contact widget by entering your keybase.io username.
@@ -256,7 +256,7 @@ defaultContentLanguageInSubdir = true
 
 [[menu.main]]
   name = "Posts"
-  url = "#posts"
+  url = "post"
   weight = 1
 
 [[menu.main]]
@@ -273,11 +273,6 @@ defaultContentLanguageInSubdir = true
   name = "Contact"
   url = "#contact"
   weight = 6
-
-[[menu.main]]
-  name = "Today I Learned"
-  url = "tags/today-i-learned/"
-  weight = 7
 
 # Taxonomies.
 [taxonomies]
