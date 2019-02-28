@@ -40,11 +40,11 @@ defaultContentLanguageInSubdir = true
 
   # Your details.
   name = "Yuchu Luo"
-  role = "Co-founder"
+  role = "Founder"
 
   # Organizations/Affiliations.
   #   Separate multiple entries with a comma, using the form: `[ {name="Org1", url=""}, {name="Org2", url=""} ]`.
-  organizations = [ { name = "fss.ai", url = "http://fss.ai" } ]
+  organizations = [ { name = "ThirdBank", url = "thirdbank" } ]
 
   gravatar = false  # Get your avatar from Gravatar.com? (true/false)
   avatar = "portrait.jpg"  # Specify an avatar image (in `static/img/` folder) or delete value to disable avatar.
@@ -242,7 +242,7 @@ defaultContentLanguageInSubdir = true
 [[menu.main]]
   name = "About"
   url = "#about"
-  weight = 2
+  weight = 1
 
 # [[menu.main]]
 #   name = "Publications"
@@ -257,7 +257,7 @@ defaultContentLanguageInSubdir = true
 [[menu.main]]
   name = "Posts"
   url = "post"
-  weight = 1
+  weight = 2
 
 [[menu.main]]
   name = "Projects"

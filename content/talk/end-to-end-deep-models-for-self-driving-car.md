@@ -1,6 +1,6 @@
 +++
 date = "2017-11-26T19:00:00"
-title = "End-to-end Deep Models for Self-driving Car (Avaliable soon)"
+title = "End-to-end Deep Models for Self-driving Car"
 abstract = ""
 abstract_short = ""
 event = "Intelligent Agent Group Seminar"
@@ -10,7 +10,7 @@ location = "Room 210, Building 12, Hangzhou Dianzi University"
 selected = false
 math = false
 
-url_pdf = ""
+url_pdf = "files/talk_pdf/11.26-end-to-end_self-driving_car.pdf"
 url_slides = ""
 url_video = ""
 
